@@ -1,4 +1,5 @@
 <?php
+// URL: http://www.pethavenpr.com/connTest.php
 $servername = "a2ss23.a2hosting.com";
 $username = "pethaven_user";
 $password = "havenpet.";
