@@ -1,5 +1,5 @@
 <?php
-
+//Gets the name, gender and size of all the dogs in the database. URL: www.pethavenpr.com/GetDogs.php
 $servername = "a2ss23.a2hosting.com";
 $username = "pethaven_user";
 $password = "havenpet.";
@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 } 
 //echo "Connected successfully" . "<br>";
 
-$sql = "SELECT animal_ID, animal_name, species FROM animal WHERE species = 'dog' AND adopted = 0";
+$sql = "SELECT animal_ID, animal_name, gender, size, species FROM animal WHERE species = 'dog' AND adopted = 0";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
