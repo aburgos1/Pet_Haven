@@ -1,5 +1,5 @@
 <?php
-
+//Gets the email, name and admin privileges of all the users. URL: www.pethavenpr.com/GetUsers.php
 $servername = "a2ss23.a2hosting.com";
 $username = "pethaven_user";
 $password = "havenpet.";
