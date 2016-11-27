@@ -1,5 +1,6 @@
 <?php
-
+//Inserts an animal to the database. URL: www.pethavenpr.com/InsertAnimal.php?name='animal_name'&species='[dog/cat]'&size='size'
+//&age=age&color='color'&gender='gender'&bio='bio'&ready_to_adopt=[0/1]&date_vaccinated='date'&surgery='surgery'
 $servername = "a2ss23.a2hosting.com";
 $username = "pethaven_user";
 $password = "havenpet.";
