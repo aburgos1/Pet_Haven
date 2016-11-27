@@ -1,4 +1,5 @@
 <?php
+//Counts all the cats in the database. URL: www.pethavenpr.com/CatCount.php
 
 $servername = "a2ss23.a2hosting.com";
 $username = "pethaven_user";
