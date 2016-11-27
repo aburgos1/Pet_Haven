@@ -1,5 +1,6 @@
 <?php
-
+//Deletes a user from the database. URL: www.pethavenpr.com/DeleteUser.php?uID=user_ID.
+//Where user_ID is the ID of the user to be deleted.
 $servername = "a2ss23.a2hosting.com";
 $username = "pethaven_user";
 $password = "havenpet.";
