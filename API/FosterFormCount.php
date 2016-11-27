@@ -1,5 +1,5 @@
 <?php
-
+//Counts all the foster forms submitted. URL: www.pethavenpr.com/FosterFormCount.php
 $servername = "a2ss23.a2hosting.com";
 $username = "pethaven_user";
 $password = "havenpet.";
