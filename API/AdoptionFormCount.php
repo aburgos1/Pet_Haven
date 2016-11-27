@@ -1,5 +1,5 @@
 <?php
-//Counts all the adoption forms submitted.
+//Counts all the adoption forms submitted. URL: www.pethavenpr.com/AdoptionFormCount.php
 $servername = "a2ss23.a2hosting.com";
 $username = "pethaven_user";
 $password = "havenpet.";
