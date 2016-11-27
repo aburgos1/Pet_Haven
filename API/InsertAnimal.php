@@ -22,14 +22,14 @@ $age = (isset($_GET["age"]) ? $_GET["age"] : '');
 $color = (isset($_GET["color"]) ? $_GET["color"] : '');
 $gender = (isset($_GET["gender"]) ? $_GET["gender"] : '');
 $bio = (isset($_GET["bio"]) ? $_GET["bio"] : '');
-$adopted = (isset($_GET["adopted"]) ? $_GET["adopted"] : '');
-$fostered = (isset($_GET["fostered"]) ? $_GET["fostered"] : '');
+//$adopted = (isset($_GET["adopted"]) ? $_GET["adopted"] : '');
+//$fostered = (isset($_GET["fostered"]) ? $_GET["fostered"] : '');
 $ready_to_adopt = (isset($_GET["ready_to_adopt"]) ? $_GET["ready_to_adopt"] : '');
 $date_vaccinated = (isset($_GET["date_vaccinated"]) ? $_GET["date_vaccinated"] : '');
 $surgery = (isset($_GET["surgery"]) ? $_GET["surgery"] : '');
 
-$sql = "INSERT INTO animal (animal_name, species, size, age, color, gender, bio, adopted, fostered, ready_to_adopt, date_vaccinated, surgery)
-        VALUES ($name, $species, $size, $age, $color, $gender, $bio, $adopted, $fostered, $ready_to_adopt, $date_vaccinated, $surgery)";
+$sql = "INSERT INTO animal (animal_name, species, size, age, color, gender, bio, ready_to_adopt, date_vaccinated, surgery)
+        VALUES ($name, $species, $size, $age, $color, $gender, $bio, $ready_to_adopt, $date_vaccinated, $surgery)";
 
 
 if (mysqli_query($conn, $sql)) {
