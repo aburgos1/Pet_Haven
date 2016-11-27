@@ -1,5 +1,6 @@
 <?php
-
+//Gets all the forms submitted by a user. URL: www.pethavenpr.com/GetUserForms.php?uID=user_ID
+//Where user_ID is the ID of the user
 $servername = "a2ss23.a2hosting.com";
 $username = "pethaven_user";
 $password = "havenpet.";
@@ -14,9 +15,9 @@ if ($conn->connect_error) {
 } 
 //echo "Connected successfully" . "<br>";
 
-$id = (isset($_GET["id"]) ? $_GET["id"] : '');
+$uID = (isset($_GET["uID"]) ? $_GET["uID"] : '');
 
-$sql = "SELECT form_ID, user_ID, email, pnum, purpose, date_submitted FROM form WHERE user_ID = " . mysqli_real_escape_string($conn,$id);
+$sql = "SELECT form_ID, user_ID, email, pnum, purpose, date_submitted FROM form WHERE user_ID = " . mysqli_real_escape_string($conn,$uID);
 
 $result = $conn->query($sql);
 
