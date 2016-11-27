@@ -1,5 +1,6 @@
 <?php
-
+//Gets the picture of an animal. URL: www.pethavenpr.com/GetAnimalPic.php?aID=animal_ID
+//Where animal_ID is the ID of the desired animal.
 $servername = "a2ss23.a2hosting.com";
 $username = "pethaven_user";
 $password = "havenpet.";
