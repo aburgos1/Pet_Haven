@@ -1,5 +1,5 @@
 <?php
-
+//Counts all the dogs in the database. URL: www.pethavenpr.com/CountDogs.php
 $servername = "a2ss23.a2hosting.com";
 $username = "pethaven_user";
 $password = "havenpet.";
