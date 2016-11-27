@@ -1,5 +1,6 @@
 <?php
-
+//Gets the general information of a user. URL: www.pethavenpr.com/GetUser.php?uID=user_ID
+//Where user_ID is the ID of the requested user.
 $servername = "a2ss23.a2hosting.com";
 $username = "pethaven_user";
 $password = "havenpet.";
