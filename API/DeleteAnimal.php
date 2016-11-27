@@ -1,5 +1,6 @@
 <?php
-
+//Deletes an animal from the database. URL: www.pethavenpr.com/DeleteAnimal.php?aID=animal_ID
+//where animal_ID is the ID of the animal to be deleted.
 $servername = "a2ss23.a2hosting.com";
 $username = "pethaven_user";
 $password = "havenpet.";
