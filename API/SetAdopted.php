@@ -1,5 +1,5 @@
 <?php
-
+//Sets an animal as adopted. URL: www.pethavenpr.com/SetAdopted.php
 $servername = "a2ss23.a2hosting.com";
 $username = "pethaven_user";
 $password = "havenpet.";
