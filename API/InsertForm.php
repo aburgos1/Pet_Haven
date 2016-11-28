@@ -1,5 +1,7 @@
 <?php
-
+//Inserts a form to the database. URL: www.pethavenpr.com/InsertForm.php?uID=user_ID&email='email'&pnum='phoneNumber'
+//&address='address'&purpose=[0/1/2/3]&date='dateRquested'
+//In purpose 0 = visit, 1 = volunteer, 2 = foster and 3 = adopt.
 $servername = "a2ss23.a2hosting.com";
 $username = "pethaven_user";
 $password = "havenpet.";
