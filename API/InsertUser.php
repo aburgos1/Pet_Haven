@@ -1,5 +1,6 @@
 <?php
-
+//Inserts a user to the database. URL: www.pethavenpr.com/InsertUser.php?first='FirstName'&last='LastName'
+//&email='email'&pnum='PhoneNumber'&address='address'&pass='password'
 $servername = "a2ss23.a2hosting.com";
 $username = "pethaven_user";
 $password = "havenpet.";
