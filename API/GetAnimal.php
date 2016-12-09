@@ -1,5 +1,5 @@
 <?php
-//Gets the basic information of an animal. URL: www.pethavenpr.com/GetAnimal?aID=animal_ID
+//Gets the basic information of an animal. URL: www.pethavenpr.com/GetAnimal.php?aID=animal_ID
 //Where animal_ID is the id of the requested animal.
 $servername = "a2ss23.a2hosting.com";
 $username = "pethaven_user";
